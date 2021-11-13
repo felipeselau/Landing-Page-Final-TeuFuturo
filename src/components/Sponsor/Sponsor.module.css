@@ -1,0 +1,90 @@
+.sponsor {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  color: #333;
+}
+
+.sponsor h3,
+.sponsor h4,
+.sponsor h5,
+.message h4,
+.message h5 {
+  margin: 0;
+}
+
+.sponsor img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  border-radius: 3px;
+  filter: grayscale(1);
+}
+
+.sponsor div {
+  box-sizing: border-box;
+  text-align: justify;
+  width: 50%;
+  padding: 0rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsor div p {
+  font-size: calc(10% + 1rem);
+}
+
+.sponsor div h3 {
+  font-size: calc(10% + 2.5rem);
+}
+
+.message a {
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.5s;
+  text-decoration: none;
+  color: #222;
+}
+
+.message a:hover {
+  font-size: 3.5rem;
+  color: #7b53ce;
+}
+
+.message h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+  color: #5e5e5e;
+}
+
+.message h4 {
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .sponsor {
+    flex-direction: column;
+  }
+  .sponsor div {
+    width: 100%;
+
+    align-items: center;
+  }
+
+  .sponsor img {
+    width: 80%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 3px;
+    filter: grayscale(1);
+  }
+
+  .message {
+    margin-bottom: 6rem;
+  }
+}

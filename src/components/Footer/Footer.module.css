@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.footer span {
+  font-size: 0.8rem;
+  color: rgb(150, 150, 150);
+}

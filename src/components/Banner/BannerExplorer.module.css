@@ -1,0 +1,43 @@
+.explore {
+  width: 30rem;
+  color: white;
+  padding: 5rem 0 0 5rem;
+}
+
+.explore h1 {
+  font-size: 2.4rem;
+  margin: 2rem 0 0 0;
+}
+
+.explore h2 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.explore p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  text-align: justify;
+  margin-bottom: 3rem;
+}
+
+.explore a {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  background-color: #ffcf1a;
+  border-radius: 10rem;
+  color: #111;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.explore a:hover {
+  background-color: #cfa714;
+}
+
+@media screen and (max-width: 800px) {
+  .explore {
+    display: none;
+  }
+}

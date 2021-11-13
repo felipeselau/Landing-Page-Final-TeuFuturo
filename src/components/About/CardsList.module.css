@@ -1,0 +1,18 @@
+.card-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-list ul {
+  display: flex;
+  padding-left: 0;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-list > div > img {
+  width: 15rem;
+}

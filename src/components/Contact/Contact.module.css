@@ -1,0 +1,93 @@
+.contact {
+  width: 90%;
+  background-color: white;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.contact div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+.contact img {
+  margin-left: 2rem;
+  background-color: #ffcd1ab2;
+  border-radius: 58% 42% 70% 30% / 37% 64% 36% 63%;
+}
+
+.contact div form {
+  margin: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact form input {
+  width: 80%;
+  font-size: 1.1rem;
+  padding: 1rem;
+  border: transparent;
+  border-bottom: 1px solid #cecece;
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+.contact form button {
+  width: 80%;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: transparent;
+  background-color: #ffcf1a;
+  color: #222;
+  font-size: 1.3rem;
+  transition: 0.3s;
+}
+
+.contact form button:hover {
+  cursor: pointer;
+  background-color: #dbb014;
+}
+
+.contact h3 {
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.contact h4 {
+  color: #222;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.contact .invalid {
+  border: 1px solid red;
+  background-color: rgb(255, 218, 211);
+}
+
+.contact span {
+  font-size: 0.8rem;
+  color: #ca0000;
+}
+
+@media screen and (max-width: 800px) {
+  .contact {
+    padding: 3px;
+  }
+
+  .contact div:nth-child(1) {
+    display: none;
+  }
+  .contact div:nth-child(2) {
+    width: 100%;
+  }
+}

@@ -1,0 +1,55 @@
+.banner-lines div:nth-child(1) {  height: 10rem;
+  border-bottom: 1rem solid transparent;
+  border-left: 3rem solid white;
+  position: absolute;
+  top: -2rem;
+  transform: rotate(20deg);
+  margin-left: 10rem;
+}
+
+.banner-lines div:nth-child(2) {
+  height: 20rem;
+  border-bottom: 1rem solid transparent;
+  border-left: 3rem solid #ffcf1a;
+  position: absolute;
+  top: -2rem;
+  margin-left: 4rem;
+  transform: rotate(20deg);
+}
+
+.banner-lines div:nth-child(3) {
+  height: 25rem;
+  border-bottom: 1.5rem solid transparent;
+  border-left: 4.5rem solid #ffcf1a;
+  position: absolute;
+  bottom: -2rem;
+  margin-left: 4rem;
+  transform: rotate(200deg);
+}
+
+.banner-lines div:nth-child(4) {
+  height: 10rem;
+  border-bottom: 1rem solid transparent;
+  border-left: 3rem solid white;
+  position: absolute;
+  bottom: -2rem;
+  margin-left: 5rem;
+  transform: rotate(200deg);
+}
+
+
+.banner-lines div:nth-child(5) {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  padding: 2rem 0rem;
+  left: 0px;
+  bottom: -4rem;
+}
+
+
+@media screen and (max-width: 800px) {
+  .banner-lines {
+    margin-right: 10rem;
+  }
+}
